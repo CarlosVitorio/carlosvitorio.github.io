@@ -232,14 +232,19 @@ main .p-d{
 }
 
 .projeto a{
+    color: rgb(207, 193, 0);
+    font-size: 170%;
     max-width: 111.5px;
     max-height: 100px;
     padding: 100px 111.5px;
-    border: solid 1px rgb(189, 189, 189);
+    border: solid 2px rgb(67, 67, 250);
+    box-shadow: 3px 3px 7px #ff0000;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
 
 .projeto span{
@@ -248,6 +253,12 @@ main .p-d{
 
 .projeto img{
     height: 40px;
+}
+
+.list-projetos img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .contato{
